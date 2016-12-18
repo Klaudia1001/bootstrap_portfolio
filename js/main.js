@@ -21,7 +21,8 @@ $(function() {
         var href = $(this).attr("href");
         root.animate({scrollTop : $(href).offset().top -52}, 500);
         
-    });
+        window.sr=ScrollReveal()reveal(".row"{reset:true});
+    });/*w html trzeba podpiąć bilioteke z linka*/
         
    
 });
