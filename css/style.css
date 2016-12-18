@@ -30,6 +30,18 @@ h1, h2, h3, h4, h5 {
     text-align: center;
 }
 
+
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*="col-"]{
+    padding-right: 0;
+    padding-left:0;
+}
+  
 section>h2 {
     font-size: 30px;
     font-weight: 300;
@@ -165,6 +177,7 @@ section>h2 {
 
 #skills div#skills_icons {
     text-align: center;
+    margin-bottom: 20px;
 }
 
 /*#skills #skills_icons figure {
@@ -212,8 +225,8 @@ p {
 
 #portfolio .portfolio_items .single_portfolio_item_mask {
     background: rgba(33,59,89,0.8);
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
     position:absolute;
     opacity:0; 
 } 
@@ -254,16 +267,11 @@ p {
     float: left;
 }
 
-.dane>h2 {
-    text-align:left;
-}
 
-
-
-address {
+/*address {
     font-style: normal;
     
-}
+}*/
 
 a {
      color: #1ac056;
@@ -278,10 +286,10 @@ a:hover {
 
 /*FORMULARZ*/
 
-#kontakt .formularz {
+/*#kontakt .formularz {
     width: 50%;
     float: left;
-    margin: 0;
+    margin: 0;*/
    
        
 }
@@ -318,6 +326,9 @@ textarea[name="message"]{
      border-style: none;
      color: white;
      padding: 15px;
+     width: 100%;
+     height: 80px;
+
 }
 
 input[type="submit"] {
@@ -328,18 +339,25 @@ input[type="submit"] {
     float: right;
 }
 
+#kontakt h2 {
+    text-align: left;
+}
 /*Formularz STOP*/
 
 /*Ikonki*/
-.ikonyk {
+
+ikony {
+    display: inline-block;
+    color: #fff:
+}
+#kontakt .ikony {
     display: inline-block;
     color:white;
     text-align: center;
     border: 1px solid;
     line-height: 38px;
-    width: 50px;
-    height: 50px;
-    padding: 15px;
+    width: 38px;
+    font-size: 20px;
 }
 
 
@@ -348,6 +366,7 @@ footer {
     background-color: #060824;
     color: white;
     font-size: 15px;
+    
    
 }
 
