@@ -51,11 +51,39 @@ section>h2 {
 
 /*Menu nawigacyjne*/
 
-#main-nav > ul {
-    margin: 0;
-    float: right;
+#main-nav {
+    background-color: transparent;
+    border: 1px solid transparent;
+    transition:  all 0.3s;
+    
+    
+}
+
+#main-nav ul li a  {
+    color: #fff;
    
 }
+
+
+#main-nav ul li a:hover  {
+    color: #1ac056;
+}
+
+#main-nav.scroll  {
+   background-color: #fff;
+    
+    
+   
+}
+
+#main-nav.scroll ul li a {
+    color: #1ac056;
+}
+
+#main-nav.scroll ul li a:hover  {
+    color: #291f1a;
+}
+
 
  .toggle, #drop {
     display: none;
@@ -67,18 +95,8 @@ section>h2 {
        
 }
 
-#menu>ul>li>a {
-    color:#1ac056;
-    text-decoration: none;
-    background-color: #fff;    
-}
 
-#menu>ul>li>a:hover {
-    color:black;
-    text-decoration: none;
-    background-color: #fff;
-    
-}
+
 
 /*KONIEC*/
 
