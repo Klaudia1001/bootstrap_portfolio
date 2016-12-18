@@ -145,34 +145,21 @@ section>h2 {
     overflow: hidden;
 }
 
-#about>figure {
-    width: 50%;
-    float:left;
-    margin: 0;
-    text-align: center;  
-    
-}
 
-#about>article>p {
-    width: 50%;
-    float:left;
-    font-weight: 300;
-    line-height: 25px;
 
-}
-
-#about>figure>img {
+#about figure img {
     max-height: 350px;
     border-radius: 10px;
     border-style: solid;
     border-color: #f9fcfe;
     max-width: 100%;
+    display: inline;
 }
 /*KONIEC*/
 
 /*Sekcja umiejętności*/
 
-#skills> p {
+#skills p {
     text-align: center;
 }
 
@@ -180,15 +167,10 @@ section>h2 {
     text-align: center;
 }
 
-#skills #skills_icons figure {
+/*#skills #skills_icons figure {
     display: inline-block;
     text-align: center;
-}
-
-#skills #skills_icons figure img {
-    margin-bottom: : 15px;
-    text-align: center;
-}
+}*/
 
 p {
     width: 100%;
