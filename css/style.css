@@ -1,0 +1,343 @@
+/*General styles*/
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    text-align: right;
+}
+
+
+body {
+    height: 200px;
+    color: #291f1a;
+    font-family:'Lato', sans-serif; 
+    margin: 0px;
+    
+}
+
+span {
+    color: #1ac056;
+    font-weight: 400;
+}
+
+section {
+    padding: 0 80px 100px;
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5 {
+    text-align: center;
+}
+
+section>h2 {
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 60px;
+    margin-bottom: 35px;
+}
+
+
+
+#menu {
+    background-color: #fff;
+    text-align: right;
+    color: #000;
+    width: 100%;
+    top: 0px;
+    right: 0px;
+    position:fixed; 
+}
+
+/*Menu nawigacyjne*/
+
+#main-nav > ul {
+    margin: 0;
+    float: right;
+   
+}
+
+ .toggle, #drop {
+    display: none;
+}
+
+.menu-item {
+    display: inline-block;
+    padding: 20px 40px;
+       
+}
+
+#menu>ul>li>a {
+    color:#1ac056;
+    text-decoration: none;
+    background-color: #fff;    
+}
+
+#menu>ul>li>a:hover {
+    color:black;
+    text-decoration: none;
+    background-color: #fff;
+    
+}
+
+/*KONIEC*/
+
+/*Główny kontener*/
+#main_header {
+    background-image:url(../img/header-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    text-align: center;
+    padding: 30vh;
+    
+}
+
+#main_header .main_header_content h1 {
+    font-size: 4em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    color: #fff;
+}
+
+#main_header .main_header_content h2 {
+    font-weight: 200;
+    color: #fff;
+}
+
+/*STOP*/
+
+/*Sekcja o mnie*/
+#about {
+    background-color: #f9fcfe;
+    overflow: hidden;
+}
+
+#about>figure {
+    width: 50%;
+    float:left;
+    margin: 0;
+    text-align: center;  
+    
+}
+
+#about>article>p {
+    width: 50%;
+    float:left;
+    font-weight: 300;
+    line-height: 25px;
+
+}
+
+#about>figure>img {
+    max-height: 350px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #f9fcfe;
+    max-width: 100%;
+}
+/*KONIEC*/
+
+/*Sekcja umiejętności*/
+
+#skills> p {
+    text-align: center;
+}
+
+#skills div#skills_icons {
+    text-align: center;
+}
+
+#skills #skills_icons figure {
+    display: inline-block;
+    text-align: center;
+}
+
+#skills #skills_icons figure img {
+    margin-bottom: : 15px;
+    text-align: center;
+}
+
+p {
+    width: 100%;
+    font-weight: 300;
+    margin:0;
+       
+}
+
+/*Sekcja portfolio*/
+
+#portfolio_item_1 {
+    background: url(../img/portfolio1.jpg);
+}
+
+#portfolio_item_2 {
+    background: url(../img/portfolio2.jpg); 
+    
+}
+
+#portfolio_item_3 {
+    background: url(../img/portfolio3.jpg);
+}
+
+
+#portfolio .portfolio_items {
+    width: 100%;
+    font-size:0;
+}
+
+#portfolio .portfolio_items .single_portfolio_item {
+    width: 33.3333%;
+    height: 350px;
+    display: inline-block;
+    position:relative;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#portfolio .portfolio_items .single_portfolio_item_mask {
+    background: rgba(33,59,89,0.8);
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    opacity:0; 
+} 
+
+#portfolio .portfolio_items .single_portfolio_item_mask:hover {
+ opacity: 1;
+}
+
+#portfolio .portfolio_items .single_portfolio_item_mask_border {
+    border: 1px solid: #fff;
+    height: 330px;
+    margin: 10px;
+    
+}
+
+#portfolio .portfolio_items .single_portfolio_item_mask_border .single_portfolio_item_contnet {
+    font-size: initial;
+    text-align: center;
+    color: #fff;
+    
+}
+
+
+
+   
+/*Sekcja kontakt-*/
+#kontakt {
+    background-color: #101863;
+    color: white;
+    overflow: hidden;
+    width: 100%;
+
+    
+}
+
+#kontakt .dane {
+    width: 50%;
+    float: left;
+}
+
+.dane>h2 {
+    text-align:left;
+}
+
+
+
+address {
+    font-style: normal;
+    
+}
+
+a {
+     color: #1ac056;
+}
+
+
+a:hover {
+    color:#1ac056; 
+
+}
+
+
+/*FORMULARZ*/
+
+#kontakt .formularz {
+    width: 50%;
+    float: left;
+    margin: 0;
+   
+       
+}
+
+#formularz {
+    background-color: #101863;
+    color:white;
+    padding: 10px;
+    
+}
+
+input[type="text"]{
+    background-color: #635eb4;
+    border-style: none;
+    width: 100%;
+    height: 50px;
+    color: white;
+    padding: 15px
+
+}
+
+input[type="email"]{
+    background-color: #635eb4;
+    border-style: none;
+    width: 100%;
+    height: 50px;
+    color: white;
+    padding: 15px;
+     
+}
+
+textarea[name="message"]{
+     background-color: #635eb4;
+     border-style: none;
+     color: white;
+     padding: 15px;
+}
+
+input[type="submit"] {
+    background-color:#1ac056;
+    color: white;
+    height: 40px;
+    width: 100px;
+    float: right;
+}
+
+/*Formularz STOP*/
+
+/*Ikonki*/
+.ikonyk {
+    display: inline-block;
+    color:white;
+    text-align: center;
+    border: 1px solid;
+    line-height: 38px;
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+}
+
+
+/*Stopka*/
+footer {
+    background-color: #060824;
+    color: white;
+    font-size: 15px;
+   
+}
+
+/*Stopka stop*/
+
+/*Responsywaność */
+
