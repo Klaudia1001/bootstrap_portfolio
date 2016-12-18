@@ -55,6 +55,7 @@ section>h2 {
     background-color: transparent;
     border: 1px solid transparent;
     transition:  all 0.3s;
+    z-index: 5;
     
     
 }
@@ -107,8 +108,20 @@ section>h2 {
     background-repeat: no-repeat;
     background-position: center; 
     text-align: center;
-    padding: 30vh;
+    height: 100vh ;
+    max-height: 800px;
+    position: relative;
     
+}
+
+#main_header .main_header_content {
+    text-align: center;
+    position:absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
 }
 
 #main_header .main_header_content h1 {
@@ -116,6 +129,7 @@ section>h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
     color: #fff;
+    
 }
 
 #main_header .main_header_content h2 {

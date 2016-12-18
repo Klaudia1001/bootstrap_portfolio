@@ -4,28 +4,28 @@
 }
 
 @media all and (max-width : 768px){
-    .toggle {
-    display: block;
+    
+/*Strat style menu nav*/
+    
+#main-nav  {
+   background-color: #fff;   
+   
+}    
+
+#main-nav ul li a {
     color: #1ac056;
-    padding: 0 20px;
-    font-size: 20px;
-    line-height: 60px;
-    text-decoration: none;
-    border:none;
-    text-align: right;
-}
-    ul {
-        display: none;
-    }  
- 
-    #drop:checked + ul {
-        display: block;
-    }
-    li {
-        display: block
-    }
 }
     
+#main-nav ul li a:hover  {
+    color: #291f1a;
+}
+
+
+
+
+/*Koniec styli menu nav*/
+    
+
 @media all and (max-width : 680px) {
     
 }
